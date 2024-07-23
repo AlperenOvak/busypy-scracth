@@ -24,4 +24,8 @@ docker build . -t busybox
 
 docker run -it busybox
 
+# Clean up
+rm -rf Python-3.8.12 Python-3.8.12.tgz
 
+rm -rf rootfs/
+rm busybox
